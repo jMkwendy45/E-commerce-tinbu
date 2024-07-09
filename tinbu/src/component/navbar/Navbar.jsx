@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/navbar.css';
 import cartIcon from '../../assets/carticon.svg';
 import personIcon from '../../assets/person.svg';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
