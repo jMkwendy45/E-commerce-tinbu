@@ -9,7 +9,9 @@ export default function Navbar() {
   return (
     <nav className="nav-container">
       <div className='nav-inner'>
+      <Link to="/">
       <p className='navbar-logo'>Health<span>Xcale</span></p>
+    </Link>
       <p className='navbar-text'>Nigeria's No.1 Pharmaceutical e-commerce platform</p>
       
       <div className="nav-icons">

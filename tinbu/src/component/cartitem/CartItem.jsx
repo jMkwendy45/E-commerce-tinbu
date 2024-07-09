@@ -1,7 +1,7 @@
-import React from 'react';
-import '../../styles/cartitem.css'
-import { products } from '../../assets/assets';
-
+import React from "react";
+import "../../styles/cartitem.css";
+import { products } from "../../assets/assets";
+import { Link } from "react-router-dom";
 const CartDetails = () => {
   return (
     <div className="cart-details">
@@ -34,8 +34,13 @@ const CartDetails = () => {
         <p className="subtotal">₦ {products[0].price.toLocaleString()}</p>
       </div>
       <div className="cart-actions">
-        <button className="get-more-items">Get more items</button>
-        <button className="checkout">Checkout now</button>
+        <Link to="/allproduct">
+          <button className="get-more-items">Get more items</button>
+        </Link>
+
+        <Link to="/checkoutform">
+          <button className="checkout">Checkout now</button>
+        </Link>
       </div>
     </div>
   );

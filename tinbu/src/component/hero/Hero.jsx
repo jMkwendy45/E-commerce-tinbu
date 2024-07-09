@@ -13,7 +13,6 @@ function Hero() {
           <Link to="/allproduct">
           <button className="start-shopping-btn">Start shopping now</button>
           </Link>
-          {/* <button className="start-shopping-btn">Start shopping now</button> */}
           <div className="customer-satisfaction">
             <p>24,000+<br></br> customers satisfied</p>
             <div className="customer-avatars">
