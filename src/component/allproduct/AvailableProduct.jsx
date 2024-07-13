@@ -39,7 +39,7 @@ const AvailableProduct = () => {
               organization_id: "70b796a5c4a2483299cd98123aa6be36",
               reverse_sort: false,
               page: page,
-              size: 10,
+              size: 8,
               Appid: "6R7Y91SSAU3P9E7",
               Apikey: "48707383e0b14785a487d34226c2d3b920240713143057424918",
             },
