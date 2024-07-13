@@ -34,6 +34,7 @@ const AvailableProduct = () => {
         const response = await axios.get(
           'https://timbu-get-all-products.reavdev.workers.dev/',
           {
+      
             params: {
               organization_id: "70b796a5c4a2483299cd98123aa6be36",
               reverse_sort: false,
