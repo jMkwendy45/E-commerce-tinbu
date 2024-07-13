@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: #346296;
+  color: white;
+}
+.nav-inner {
+  /* padding: 16px 0px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.9rem;
+  padding-left: 3rem;
+}
+.navbar-logo {
+  font-size: 2.36rem;
+  font-weight: 700;
+  font-family:Nunito;
+}
+.navbar-logo span {
+  font-weight: 400;
+  color: #7ba3af;
+}
+.navbar-text {
+  font-family: Plus Jakarta Sans;
+  font-size: 1.25rem;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 1.57rem;
+  margin: 6rem;
+}
+.shop-button {
+  background-color: #5eba24;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  width: 9rem;
+  height: 2.63rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  margin: 2.5rem;
+  gap: 1rem;
+  font-family:Nunito;
+  font-weight: 700;
+}
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.icon-button {
+  gap: 1rem;
+}
+
+
+@media (max-width: 900px) {
+  .nav-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-text {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .navbar-actions {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .shop-button {
+    width: 7rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    margin: 0 1rem;
+  }
+
+  .nav-icons {
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-inner {
+    padding: 0.5rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+
+  .navbar-text {
+    font-size: 0.9rem;
+  }
+
+  .shop-button {
+    width: 6rem;
+    height: 1.8rem;
+    font-size: 0.7rem;
+    margin: 0 0.5rem;
+  }
+
+  .nav-icons {
+    margin: 0.3rem;
+  }
+}

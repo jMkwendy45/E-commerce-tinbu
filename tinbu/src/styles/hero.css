@@ -1,0 +1,140 @@
+.pharmacy-container {
+  font-family: Arial, sans-serif;
+}
+
+.pharmacy-content {
+  display: flex;
+}
+
+.text-section {
+  padding: 3.2rem;
+}
+.text-section h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.15rem;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+.text-section p {
+  margin-bottom: 1rem;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.89rem;
+  text-align: left;
+}
+
+.start-shopping-btn {
+  background-color: #5eba24;
+  width: 13.625rem;
+  height: 3rem;
+  padding: 0.8125em;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-family: "Nunito";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.364em;
+}
+.image-section {
+  margin-top: 3.4em;
+  width: 31.8125em;
+  height: 21.5625em;
+  margin-left: 2rem;
+}
+
+.customer-satisfaction {
+    margin-top: 1.25rem; 
+  }
+  .customer-satisfaction p{
+    font-family: 'Plus Jakarta Sans';
+     font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.5em; 
+
+  }
+  .pharmacy-footer {
+    background-color: #a7d4ef;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+     height:5rem;
+  }
+  .blues{
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.65px;
+    color: #4572a3; 
+    margin-top:1.125rem; 
+  }
+
+
+ #health{
+  font-family: Nunito;
+font-size: 32px;
+font-weight: 700;
+line-height: 43.65px;
+text-align: left;
+ color: white;
+ margin-top:1.125rem; 
+
+ }
+#xcale{
+ color:  #b2d5cc;
+} 
+
+
+
+@media (max-width: 1024px) {
+  .text-section {
+    padding: 2rem;
+  }
+
+  .text-section h1 {
+    font-size: 2rem;
+  }
+
+  .text-section p {
+    font-size: 1.2rem;
+  }
+
+  .image-section {
+    margin-top: 2em;
+    margin-left: 1rem;
+  }
+
+  .blues, #health {
+    font-size: 28px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .pharmacy-content {
+    flex-direction: column;
+  }
+
+  .text-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-section p {
+    font-size: 1rem;
+  }
+
+  .customer-satisfaction p {
+    font-size: 0.9rem;
+  }
+
+  .blues, #health {
+    font-size: 20px;
+  }
+}
